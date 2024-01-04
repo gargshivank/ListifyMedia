@@ -16,7 +16,17 @@ out/
 bin/
 build/
 out/
+# Ignore Gradle GUI config
+gradle-app.setting
 
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
